@@ -1,1 +1,1 @@
-web: gunicorn tftf_web.wsgi --log-file -
+web: gunicorn tftf.wsgi --log-file -
