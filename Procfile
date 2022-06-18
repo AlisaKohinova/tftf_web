@@ -1,2 +1,1 @@
-web: gunicorn tftf_web.wsgi
-python manage.py migrate
+web: gunicorn tftf_web.wsgi --log-file -
