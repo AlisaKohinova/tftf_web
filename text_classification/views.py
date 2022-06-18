@@ -1,3 +1,8 @@
 from django.shortcuts import render
+from rest_framework import generics
 
-# Create your views here.
+from django.http import HttpResponse
+from django.http import JsonResponse
+
+def index(request):
+    return JsonResponse({'tftf': 'bayreuth'})
