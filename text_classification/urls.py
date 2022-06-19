@@ -5,5 +5,5 @@ from . import views
 ########################################################################################################################
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('classification/<str:user_input>', views.index, name='index'),
 ]
