@@ -16,4 +16,7 @@ def weapon_type(word):
     return 'other'
 
 def index(request, user_input=None):
-    return JsonResponse({user_input: weapon_type(user_input)})
+    return JsonResponse(
+        {"recognizedWord": user_input,
+        "type": weapon_type(user_input)}
+    )
