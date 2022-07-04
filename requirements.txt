@@ -4,3 +4,9 @@ django-heroku==0.3.1
 whitenoise==6.2.0
 djangorestframework==3.13.1
 requests==2.25.1
+pyspellchecker==0.6.3
+Levenshtein==0.18.1
+jarowinkler==1.0.5
+rapidfuzz==2.1.1
+python-levenshtein==0.12.2
+
